@@ -1,6 +1,6 @@
 # Product preview card component
 
-![Design Preview](.jpg)
+![Mockup](link)
 
 + You can see live [here](link)
 
@@ -9,25 +9,23 @@
 
 ## Features
 - Main Product image
-- Button
+- Shopping cart Button thank links to?
 - fully responsive screen to fit different screen sizes
-- shopping cart button that links to?
-
-## Design
-
 
 ## Images
-+ The product picture was created using Stable Diffusion 1.5
++ The product picture 
 + The shopping cart icon was taken from [here](https://www.flaticon.com/)
 + The favicon was taken from [here](link)
 
 ## Fonts and Colors
-
+- Fonts were taken from [Google Fonts](link)
 
 ## Deployment
++ The page was deployed to Github...
 
 
 ## Technologies used
++ The mockup was generated with [Techsini](link)
 
 
 ## Languages used
@@ -41,11 +39,11 @@
 + on Browser 1, Browser 2
 
 ### Automated Testing
-+ The responsiveness was tested on [AmIresonsive](www.AmIresponsive.Blogspot.com)
-+ Lighthouse
++ The responsiveness was tested on [AmIresponsive](www.AmIresponsive.Blogspot.com)
++ [Lighthouse](link)
 
 
 ## Wireframe
-
++ The basic design idea was created using [Wireframe](link)
 
 ## Credits
