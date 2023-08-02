@@ -17,7 +17,7 @@
         background-color:rgb(248, 221, 179);
         border: 1rem;
         font-weight:bold;
-        max-height:100vh;
+        min-height:100vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -135,8 +135,7 @@
     @media only screen and (max-width: 600px)
     {
         .container{
-            display: flex;
-            flex-direction: column;
+           
             max-width: 100%;
             overflow: auto;
 
