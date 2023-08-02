@@ -6,17 +6,18 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    float: none; 
     margin: 0;
     padding: 0;
-          
+              
     }
     
     body{
         font-family: 'Montserrat', sans-serif;
         background-color:rgb(248, 221, 179);
         border: 1rem;
-        font-weight:bold;
+        font-weight:lighter;
         min-height:100vh;
         display: flex;
         justify-content: center;
@@ -41,8 +42,8 @@
     .img {
         width: 100%;
         height:auto;
-        object-fit: cover;
-        object-position: top;
+         object-position: top;
+         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     }
     
     
@@ -63,35 +64,43 @@
     
     .des{
         color: hsl(228, 12%, 48%);
-        line-height: 1.6em;
-        max-width: 80vh; 
+        line-height: 1.2em;
+        max-width: 60vh; 
     }
     
     .price{
         display: flex;
-        align-items: center;
+        align-items:flex-start;
         font-family: 'Fraunces', serif;
         font-size: 25px;
         color: blue;
-        padding-right: 25px;
+        padding-top: 20px;
+        padding-left:35%;
+        
     }
     
        
     .ex-price{
         color: hsl(228, 12%, 48%);
+        font-family:serif;
         text-decoration: line-through;
-        font-size: 18px;
+        text-decoration-color: red;
+        font-size: 20px;
         padding-left: 5%;
     }
     
+.card {
+    initial-letter-align: 50%;
+    
+}
     .btn {
         
         max-width: inherit;
-        background-color:orangered;
-        border: 1px color black;
+        background-color:rgb(255, 69, 0);
+        border-color: rgb(133, 60, 60);
         padding: 14px;
         border-radius: 12px;
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 18px;
         font-weight: 750;
         transition: background-color .5s ease;
@@ -103,20 +112,19 @@
     }
     
    
-    
-    @media only screen and (max-width: 769px)
+      @media only screen and (max-width: 769px)
     {
         .container{
             display: flex;
        
-        max-width: inherit;
+        max-width: fit-content;
         overflow:auto;
 
         }
         img{
             max-height: 550px;
             width: 100%;
-            object-fit: cover;
+            
         }
         .content{
             display: block;
@@ -133,7 +141,7 @@
    
     }
               
-    @media only screen and (max-width: 600px)
+      @media only screen and (max-width: 600px)
     {
         .container{
            
@@ -144,11 +152,10 @@
         img{
             max-height: 450px;
             width: 100%;
-            object-fit: cover;
+            
         }
        
-       
-        .prod, .des, .price {
+               .prod, .des, .price {
             padding-bottom: 10px;
         }
         .btn{
