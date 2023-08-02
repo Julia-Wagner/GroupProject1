@@ -12,5 +12,11 @@ body {
 }
 
 #maria-picture {
-    height: 50vh;
+    height: 10vh;
+}
+
+header {
+    background-color:lightcoral;
+    display: flex;
+    justify-content: center;
 }
