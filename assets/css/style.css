@@ -10,6 +10,7 @@
     float: none; 
     margin: 0;
     padding: 0;
+
               
     }
     
@@ -177,3 +178,76 @@
     
     
     
+
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.cards-container {
+    display: flex;
+}
+
+.card-julia {
+    width: 90%;
+    margin: 1rem auto;
+    border: 4px solid #2f4858;
+}
+
+.card-julia figure {
+    margin: 0;
+}
+
+.card-julia img {
+    max-width: 100%;
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-julia figcaption {
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.card-julia p {
+    padding: 0 1rem 1rem 1rem;
+    margin: 0;
+}
+
+.card-julia .price {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #2f4858;
+}
+
+.card-julia span.old-price {
+    color: #879c92;
+    text-decoration: line-through;
+    margin-left: 1rem;
+}
+
+.card-julia button.cart {
+    background: #2f4858;
+    color: #d5d4c5;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin: 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.card-julia .details {
+    display: flex;
+    flex-direction: column;
+}
+
+/* three columns on big screens */
+@media screen and (min-width: 900px) {
+    .card {
+        width: 33%;
+    }
+}
+
