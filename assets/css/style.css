@@ -89,10 +89,7 @@
         padding-left: 5%;
     }
     
-.card {
-    initial-letter-align: 50%;
-    
-}
+
     .btn {
         
         max-width: inherit;
@@ -111,6 +108,14 @@
         cursor: pointer;
     }
     
+    .card {
+        background-image: url('/assets/img/cart.png');
+        background-repeat: no-repeat;
+        background-position: 50px center;
+        background-size: 35px;
+        
+
+    }
    
       @media only screen and (max-width: 769px)
     {
