@@ -11,8 +11,10 @@
 + The objective of the challenge was to create a fully responsive product card featuring a product, a shopping cart and before/after price of a product using HTML and CSS.
 
 ## Design
-The Wireframe was made with [Balsamiq](assets/img/mob.jpg)
 
+The Wireframe was made with Balsamiq app:![](/assets/img/mob.png)
+
+![](/assets/img/desk.png) 
 
 ## Features
 - The Main Product image features a fully responsive photo of a an old Egyptian papyrus
@@ -53,8 +55,10 @@ The Wireframe was made with [Balsamiq](assets/img/mob.jpg)
 + The responsiveness was tested on [AmIresponsive](http://Amiresponsive.blogspot.com)
 ![amiresponsive screenshot](/assets/img/Am%20I%20Responsive%20-%20amiresponsive.blogspot.com)
 
-+ [Lighthouse](link)
++ Test report Lighthouse for desktop (Local browser)![Lighthouse](/assets/img/local.png)
 
++ Test report Lighthouse for mobile (local browser)![](/assets/img/local.mob.jpg)
 
++ Test report Lighthouse for desktop (on github)![Lighthouse](/assets/img/online.desk.jpg)
 
-
++ Test report Lighthouse for mobile (on github)![Lighthouse](/assets/img/online.mob.jpg)
