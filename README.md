@@ -1,39 +1,64 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Product preview card component
 
-Welcome,
+![Multi-Mockup](/assets/img/mockup.png)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
++ You can see live [here](https://mufasa1611.github.io/GroupProject1/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+## Welcome! 
++ This Product Card project was developed in the settings of a Hackathon teamwork Challenge. 
 
-## Codeanywhere Reminders
+## Objective
++ The objective of the challenge was to create a fully responsive product card featuring a product, a shopping cart and before/after price of a product using HTML and CSS.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Design
 
-`python3 -m http.server`
+The Wireframe was made with Balsamiq app:![](/assets/img/mob.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![](/assets/img/desk.png) 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Features
+- The Main Product image features a fully responsive photo of a an old Egyptian papyrus
+- A description of the product beneath
+- A Shopping cart Button thank links to a placeholder page at [alhanein.net](https://alhanein.net)
+- The card is fully responsive to fit different screen sizes
 
-`http_server`
+## Images
++ The product picture was taken from [Wikimedia](https://commons.wikimedia.org/wiki/File:Ramses_III_and_the_Memphis_gods.jpg)
++ The shopping cart icon was taken from [Flaticon](https://www.flaticon.com/)
++ The favicon was created with Photoshop
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Fonts and Colors
+- Fonts were taken from [Google Fonts](https://fonts.googleapis.com)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Deployment
++ The page was forked from a repo on Github, the code and files written on Visual Code Studio and then pushed and deployed to Github.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Technologies used
++ The mockup was generated with [Techsini](https://techsini.com/multi-mockup/index.php)
++ Photoshop was used to generate the favicon and to edit images
++ [compresspng](https://compresspng.com) was used to compress images
++ The Wireframe was made with [Balsamiq](http://balsamiq.com)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Languages used
++ HTML
++ CSS
 
----
+## Testing
 
-Happy coding!
+### Manual Testing 
++ on Chrome
++ on Firefox
+
+### Automated Testing
++ The responsiveness was tested on [AmIresponsive](http://Amiresponsive.blogspot.com)
+![amiresponsive screenshot](/assets/img/amiresponsive.jpg)
+
++ Test report Lighthouse for desktop (Local browser)![Lighthouse](/assets/img/local.png)
+
++ Test report Lighthouse for mobile (local browser)![](/assets/img/local.mob.jpg)
+
++ Test report Lighthouse for desktop (on github)![Lighthouse](/assets/img/online.desk.jpg)
+
++ Test report Lighthouse for mobile (on github)![Lighthouse](/assets/img/online.mob.jpg)

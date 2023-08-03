@@ -1,13 +1,184 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800;9..144,900&family=Montserrat:wght@500;600;700;800;900&display=swap');
+
 /* override default browser styles and add general styles */
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-}
-
-body {
+    box-sizing: border-box;  
+    float: none; 
     margin: 0;
     padding: 0;
+
+              
+    }
+    
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background-color:rgb(248, 221, 179);
+        border: 1rem;
+        font-weight:lighter;
+        min-height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin:initial;
+    }
+    
+    .container{
+       display: flex;
+    }
+    
+    .bord{
+        max-width: 7500px;
+        display: flexbox;
+        border-style:double;
+        background-color: #ffffff;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    .img {
+        width: 100%;
+        height:auto;
+         object-position: top;
+         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    
+    .content{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+      
+    .prod{
+        font-family: 'Fraunces', serif;
+        font-size: 34px;
+        line-height: 1.5em;
+        color: hsl(212, 21%, 14%);
+    }
+    
+    .des{
+        color: hsl(228, 12%, 48%);
+        line-height: 1.2em;
+        max-width: 60vh; 
+    }
+    
+    .price{
+        display: flex;
+        align-items:flex-start;
+        font-family: 'Fraunces', serif;
+        font-size: 25px;
+        color: blue;
+        padding-top: 20px;
+        padding-left:35%;
+        
+    }
+    
+       
+    .ex-price{
+        color: hsl(228, 12%, 48%);
+        font-family:serif;
+        text-decoration: line-through;
+        text-decoration-color: red;
+        font-size: 20px;
+        padding-left: 5%;
+    }
+    
+
+    .btn {
+        
+        max-width: inherit;
+        background-color:rgb(255, 69, 0);
+        border-color: rgb(133, 60, 60);
+        padding: 14px;
+        border-radius: 12px;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        font-weight: 750;
+        transition: background-color .5s ease;
+    }
+    
+    .btn:hover{
+        background-color: white;
+        cursor: pointer;
+    }
+    
+    .card {
+        background-image: url('/assets/img/cart.png');
+        background-repeat: no-repeat;
+        background-position: 50px center;
+        background-size: 35px;
+        
+
+    }
+   
+      @media only screen and (max-width: 769px)
+    {
+        .container{
+            display: flex;
+       
+        max-width: fit-content;
+        overflow:auto;
+
+        }
+        img{
+            max-height: 550px;
+            width: 100%;
+            
+        }
+        .content{
+            display: block;
+        }
+        .prod, .des, .price {
+            padding-bottom: 23px;
+        }
+        .btn{
+            padding: 15px 35%;
+            font-size: 18px;
+            width: inherit;
+            
+        }
+   
+    }
+              
+      @media only screen and (max-width: 600px)
+    {
+        .container{
+           
+            max-width: 100%;
+            overflow: auto;
+
+        }
+        img{
+            max-height: 450px;
+            width: 100%;
+            
+        }
+       
+               .prod, .des, .price {
+            padding-bottom: 10px;
+        }
+        .btn{
+            padding: 3% 35%;
+            font-size:3.1vmin;
+            width: 100%;
+            
+        }
+    
+    }
+
+
+        
+    
+    
+    
+
     min-height: 100vh;
     font-family: sans-serif;
 }
@@ -79,3 +250,4 @@ body {
         width: 33%;
     }
 }
+
