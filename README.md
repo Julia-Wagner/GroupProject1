@@ -53,7 +53,7 @@ The Wireframe was made with Balsamiq app:![](/assets/img/mob.png)
 
 ### Automated Testing
 + The responsiveness was tested on [AmIresponsive](http://Amiresponsive.blogspot.com)
-![amiresponsive screenshot](/assets/img/Am%20I%20Responsive%20-%20amiresponsive.blogspot.com)
+![amiresponsive screenshot](/assets/img/amiresponsive.jpg)
 
 + Test report Lighthouse for desktop (Local browser)![Lighthouse](/assets/img/local.png)
 
