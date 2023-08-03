@@ -11,7 +11,7 @@
 + The objective of the challenge was to create a fully responsive product card featuring a product, a shopping cart and before/after price of a product using HTML and CSS.
 
 ## Design
-!The Wireframe was made with [Balsamiq](/assets/img/mob.png)
+The Wireframe was made with [Balsamiq](assets/img/mob.jpg)
 
 
 ## Features
@@ -37,8 +37,6 @@
 + Photoshop was used to generate the favicon and to edit images
 + [compresspng](https://compresspng.com) was used to compress images
 + The Wireframe was made with [Balsamiq](http://balsamiq.com)
-
-
 
 
 ## Languages used
